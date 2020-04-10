@@ -57,7 +57,6 @@ function draw() {
             text("Oh no!", 0, height * 0.35, width);
             textSize(50);
             text("T-T", 0, height * 0.55, width);
-
             textSize(40);
             text("The game's over", 0, height * 0.75, width);
             text("press  A to restart", 0, height * 0.8, width);

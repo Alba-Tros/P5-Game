@@ -40,8 +40,11 @@ class Player {
             this.height
         );
 
+        push();
+        textFont(font1, 50);
         this.drawLives();
         this.drawScore();
+        pop();
     }
     drawLives() {
         text("LIVES", 0, height * 0.05, width * 1.5);
@@ -57,10 +60,6 @@ class Player {
     }
 
     drawScore() {
-        text("SCORE", 0, height * 0.05, width * 0.2);
-        push();
-        textFont(font1, 50);
-        text(this.score, 0, height * 0.05, width * 0.5);
-        pop();
+        text(`SCORE   ${this.score}`, 0, height * 0.05, width * 0.2);
     }
 }

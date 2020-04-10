@@ -79,5 +79,10 @@ class Game {
             zombieGirl.display();
             return !collision(zombieGirl, "zombie1");
         });
+        push();
+        textFont(fonta, 75);
+        textAlign(CENTER, TOP);
+        text("Easter Corona", 0, height * 0.03, width);
+        pop();
     }
 }
