@@ -47,11 +47,11 @@ class Player {
         pop();
     }
     drawLives() {
-        text("LIVES", 0, height * 0.05, width * 1.5);
+        text("LIVES", 0, height * 0.05, width * 1.65);
         for (let i = 0; i < this.lives; i++) {
             image(
                 this.lifeImage,
-                width - 375 + i * 50,
+                width - 240 + i * 50,
                 15,
                 this.lifeImage.width / 3,
                 this.lifeImage.height / 3
