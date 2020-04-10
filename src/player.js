@@ -59,7 +59,7 @@ class Player {
     drawScore() {
         text("SCORE", 0, height * 0.05, width * 0.2);
         push();
-        textFont(font1);
+        textFont(font1, 50);
         text(this.score, 0, height * 0.05, width * 0.5);
         pop();
     }

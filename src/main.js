@@ -70,7 +70,7 @@ function keyPressed() {
     if (keyCode === 32) {
         game.player.jump();
     }
-    if (keyCode === 13 && startGame <= 3) {
+    if (keyCode === 13 && startGame <= 2) {
         startGame++;
     }
     if (keyCode === 65 && game.player.lives == 0) {
