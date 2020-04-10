@@ -4,7 +4,7 @@ class coinz {
         this.height = 50;
         this.x = WIDTH;
         this.y = random(0, HEIGHT - this.height);
-        this.img = loadImage("assets/coins/tile000.png");
+        this.img = loadImage("./assets/coins/tile000.png");
         this.index = 0;
     }
     display() {

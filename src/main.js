@@ -5,8 +5,8 @@ let startGame = 1;
 
 function preload() {
     game.init();
-    fonta = loadFont("assets/Fonts/MELLOW - DEMO.ttf"); // also good
-    font1 = loadFont("assets/Fonts/MachineStd-Medium.otf"); // also good
+    fonta = loadFont("./assets/Fonts/MELLOW - DEMO.ttf"); // also good
+    font1 = loadFont("./assets/Fonts/MachineStd-Medium.otf"); // also good
 }
 
 function setup() {

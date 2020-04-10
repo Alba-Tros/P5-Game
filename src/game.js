@@ -3,29 +3,29 @@ class Game {
         this.obstacles = [];
     }
     init() {
-        this.coinIMG = loadImage("assets/coins/tile000.png");
+        this.coinIMG = loadImage("./assets/coins/tile000.png");
         this.coins = [];
         for (let i = 0; i <= 4; i++) {
-            this.coins.push(loadImage(`assets/coins/tile00${i}.png`));
+            this.coins.push(loadImage(`./assets/coins/tile00${i}.png`));
         }
 
         this.playerIMG = loadImage(
-            "assets/Bunny-sets-PNG/Players/bunny1_walk1.png"
+            "./assets/Bunny-sets-PNG/Players/bunny1_walk1.png"
         );
         this.playerI = [];
         for (let i = 1; i <= 2; i++) {
             this.playerI.push(
-                loadImage(`assets/Bunny-sets-PNG/Players/bunny1_walk${i}.png`)
+                loadImage(`./assets/Bunny-sets-PNG/Players/bunny1_walk${i}.png`)
             );
         }
 
         this.zombieGr = loadImage(
-            "assets/Zombie-Boy-Girl-png/female/Walk-01.png"
+            "./assets/Zombie-Boy-Girl-png/female/Walk-01.png"
         );
         this.zombieG = [];
         for (let i = 1; i <= 10; i++) {
             this.zombieG.push(
-                loadImage(`assets/Zombie-Boy-Girl-png/female/Walk-0${i}.png`)
+                loadImage(`./assets/Zombie-Boy-Girl-png/female/Walk-0${i}.png`)
             );
         }
 
@@ -43,10 +43,6 @@ class Game {
     }
     draw() {
         clear();
-        if (frameCount % 120 === 0) {
-            this.obstacles.push(new Obstacles());
-        }
-
         this.brackground.draw();
         this.player.draw();
 

@@ -2,27 +2,27 @@ class Background {
     constructor() {
         this.images = [
             {
-                src: loadImage("assets/background/bigger/plx-1.png"),
+                src: loadImage("./assets/background/bigger/plx-1.png"),
                 x: 0,
                 speed: 0
             },
             {
-                src: loadImage("assets/background/bigger/plx-2.png"),
+                src: loadImage("./assets/background/bigger/plx-2.png"),
                 x: 0,
                 speed: 1
             },
             {
-                src: loadImage("assets/background/bigger/plx-3.png"),
+                src: loadImage("./assets/background/bigger/plx-3.png"),
                 x: 0,
                 speed: 2
             },
             {
-                src: loadImage("assets/background/bigger/plx-4.png"),
+                src: loadImage("./assets/background/bigger/plx-4.png"),
                 x: 0,
                 speed: 3
             },
             {
-                src: loadImage("assets/background/bigger/plx-5.png"),
+                src: loadImage("./assets/background/bigger/plx-5.png"),
                 x: 0,
                 speed: 4
             }

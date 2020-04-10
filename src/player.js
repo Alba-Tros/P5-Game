@@ -10,7 +10,7 @@ class Player {
         this.lives = 3;
         this.score = 0;
         this.lifeImage = loadImage(
-            "assets/Bunny-sets-PNG/Players/bunny1_stand.png"
+            "./assets/Bunny-sets-PNG/Players/bunny1_stand.png"
         );
     }
     setup() {
