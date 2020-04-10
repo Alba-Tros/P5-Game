@@ -11,4 +11,6 @@ The goal is to reach the highest score possible.
 For that you have to collect coins to earn points.
 And you have to avoid zombies or you will lose lives.
 
+## Link to game
+https://alba-tros.github.io/P5-Game-Easter-Corona/
 
