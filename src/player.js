@@ -19,7 +19,7 @@ class Player {
     jump() {
         this.jumpCounter++;
         if (this.jumpCounter < 3) {
-            this.speed = -14;
+            this.speed = -15;
         }
     }
     draw() {

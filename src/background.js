@@ -33,7 +33,7 @@ class Background {
     show(img) {
         image(img.src, img.x, 0);
         image(img.src, img.x + width, 0);
-        img.x -= 2 * img.speed;
+        img.x -= 2 * img.speed * game.speed;
         if (img.x <= -width) {
             img.x = 0;
         }

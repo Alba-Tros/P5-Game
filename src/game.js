@@ -40,6 +40,7 @@ class Game {
         this.score = 0;
         this.zombie1 = [];
         this.coinzs = [];
+        this.speed = 1;
     }
     draw() {
         clear();
@@ -52,6 +53,9 @@ class Game {
 
         if (frameCount % 100 === 0) {
             this.coinzs.push(new coinz());
+        }
+        if ((frameCount % 50) / game.speed ** 2 === 0) {
+            this.speed += 0.05;
         }
 
         let collision = (objects, objectName) => {

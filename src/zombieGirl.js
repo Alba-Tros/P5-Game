@@ -8,7 +8,7 @@ class zombieGirl {
         this.index = 0;
     }
     display() {
-        this.x -= 3;
+        this.x -= 5 * game.speed;
         if (frameCount % 10 === 0) {
             this.index++;
         }
